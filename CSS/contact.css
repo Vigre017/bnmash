@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  background-image: url(/IMAGES/background2.png);
+  background-attachment: fixed;
+  position: relative; 
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.containerText {
+  text-align: center;
+  overflow: hidden;
+  margin: 5rem;
+}
+
+.h22 {
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  font-style: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 3rem;
+  padding-top: 5rem;
+  
+}
+
+.p22 {
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  font-style:italic;
+  font-family:'Times New Roman', Times, serif
+}
+
+.logo {
+  float: left;
+}
+/* ~~ Top Navigation Bar ~~ */
+
+#navigation-container {
+  width: 1200px;
+  margin: 0 auto;
+  margin-left: 80px;
+  height: 70px;
+}
+
+.navigation-bar {
+  background: rgba(0, 0, 0, 0.5); 
+  height: 85px;
+  width: 100%;
+  text-align:center;
+  
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+
+}
+.navigation-bar img{
+  float:left;
+  width: 70px;
+  padding: 10px;
+}
+
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+.navigation-bar li a {
+  color: rgb(232, 201, 201);
+  font-size: 16px;
+  letter-spacing: 3px;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 35px;
+  opacity: 0.7;
+}
+
+.navigation-bar li a:hover {
+  font-weight: 500;
+}
+
+#menu {
+  float: right;
+}
+
+.button {
+    background-color: transparent;
+    border: 1px #222222 solid;
+    color: #222222;
+    padding: 15px 32px;
+    text-align: center;font-family: 'Playfair Display SC', serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.icon-calendar {
+  font-family: 'untitled-font-1';
+  color: #c6aaa1;}
+
+.icon-map-marker {
+  font-family: 'untitled-font-1';
+  color: #b2c1cb;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 20px;
+
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  line-height: 15px;
+  font-style: italic;
+  font-weight: 400; 
+  color: #b5b5b5;
+  
+}
+
+.biglogo {
+  position: fixed;
+  width: 22%;
+  text-align: center;
+  z-index: 99;
+  top: 0%;
+} 
+
+.logoBM {
+  height: 85.5px;
+ }
+
+.h31 {
+  font-family: 'Crimson Text', serif;
+  color: #bdbdbd;
+  font-weight: 400;
+  font-style: bold;
+  margin-top: 27px;
+  margin-left: 80px;
+  letter-spacing: 4px;
+  word-spacing: 10px;
+  font-size: 15px;
+}
+
+.yellowhighlight {
+  color: #e8da9b;
+}
+
+/* legge inn h31 i alle sider og evt fjerne scrolling på home siden.
